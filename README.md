@@ -1,3 +1,4 @@
+````
 http://localhost:8080/api/weather
 
 POST:
@@ -16,7 +17,8 @@ Response:
     "wind_speed": 10.2,
     "id": 1
 }
-
+````
+````
 GET:
 http://localhost:8080/api/weather?date=2023-05-26
 Response:
@@ -27,7 +29,8 @@ Response:
     "wind_speed": 10.2,
     "id": 1
 }
-
+````
+````
 PUT:
 http://localhost:8080/api/weather?date=2023-05-26
 Request:
@@ -45,7 +48,8 @@ Response:
     "wind_speed": 1.2,
     "id": 1
 }
-
+````
+````
 Weather statistics
 http://localhost:8080/api/weather/statistics
 [
@@ -66,7 +70,8 @@ http://localhost:8080/api/weather/statistics
         2
     ]
 ]
-
-
+````
+````
 SWAGGER:
 http://localhost:8080/swagger-ui/#
+````
